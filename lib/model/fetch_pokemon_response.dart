@@ -1,10 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
+
 import 'package:poke_dart/model/pokemon.dart';
 
 part 'fetch_pokemon_response.g.dart';
 
 @JsonSerializable()
-class FetchPokemonResponse {
+class FetchPokemonResponse extends Equatable {
   final int count;
   final String? next;
   final String? previous;
@@ -24,4 +26,7 @@ class FetchPokemonResponse {
 
   factory FetchPokemonResponse.fromJson(Map<String, dynamic> json) =>
       _$FetchPokemonResponseFromJson(json);
+
+  @override
+  List<Object?> get props => [results, count, next, previous];
 }

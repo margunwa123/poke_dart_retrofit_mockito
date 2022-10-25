@@ -2,6 +2,7 @@
 .dart_tool/
 .packages
 *.g.dart
+*.mocks.dart
 
 # Conventional directory for build output.
 build/

@@ -16,3 +16,7 @@ The output should look like this:
 ## Tutorial
 
 To move to the end state of the program, simply go to the finished branch
+
+## Testing
+
+Run `dart test`
