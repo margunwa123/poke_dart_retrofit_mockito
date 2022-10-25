@@ -1,6 +1,6 @@
 # Poke Dart
 
-Created to make a retrofit + mockito tutorial on medium.
+Created for [retrofit + mockito tutorial on medium](https://medium.com/flutter-tips/flutter-mocking-a-retrofit-client-8c2262e6ae6e).
 This method is also applicable to flutter.
 
 ## How To Run
@@ -15,4 +15,4 @@ The output should look like this:
 
 ## Tutorial
 
-To move to the end state of the program, simply go to the finished branch
+To move to the end state of the program, simply go to the [finished branch](https://github.com/margunwa123/poke_dart_retrofit_mockito/tree/finished)
